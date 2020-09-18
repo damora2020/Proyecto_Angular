@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MiPrimerComponenteComponent } from './mi-primer-componente/mi-primer-componente.component';
+import { SegundoComponenteComponent } from './segundo-componente/segundo-componente.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MiPrimerComponenteComponent
+    MiPrimerComponenteComponent,
+    SegundoComponenteComponent
   ],
   imports: [
     BrowserModule,
