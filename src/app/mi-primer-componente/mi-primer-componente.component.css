@@ -1,6 +1,18 @@
-.students{
-  background-color: #1976d2;
-  color:black;
-  text-align: center;
-  text-justify: auto;
+.name{
+  color: #2E9AFE;
+}
+.ciudad{
+  color:#58FA82;
+}
+.direccion{
+  color:#FA5858;
+}
+.hobbies{
+  color:#F781F3;
+}
+.hobbies .title{
+  color: #B40431;
+}
+h1{
+  color: crimson;
 }

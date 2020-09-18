@@ -1,8 +1,22 @@
+<div>
+    <p class="name"> Name: {{name}}</p>
+    <p class="ciudad">Ciudad : {{address.city}} </p>
+    <p class="direccion"> Dirección : {{address.street}} </p>
 
-<footer>
-  <div class="students"><li *ngFor="let student of students">
+    <ul class="hobbies">
+      <p class="title">Mis Hobbies</p>
+      <li *ngFor= 'let hobbies of hobbie'> Hobbies: {{hobbies}} </li>
+    </ul>
+</div><br><br>
 
-    {{student}}
-</li>
+<h1>Segundo ejemplo</h1>
+
+<div>
+  <form>
+    <input type="text" name="nombre" [(ngModel)]="nombre">
+    <input type="text" name="edad" [(ngModel)]="edad">
+  </form>
+
+  nombre : {{nombre}} <br>
+  edad : {{edad}}
 </div>
-</footer>
